@@ -1,0 +1,1143 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+body{
+    /* background-color: rgb(233, 229, 229); */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.landpageimg{
+   background-repeat: no-repeat;
+   background: fixed;
+}
+.quora_sign_board_holder{
+    width: 100%;   
+}
+.quora_sign_board{
+    width: 60%;
+    height: 40%;   
+    justify-content: center;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    margin-top: -45%;
+    padding: 20px;
+}
+.quora_logo_landingpgage{
+    justify-content: center;
+    margin: auto;
+    text-align: center;  
+}
+.quora_logo_landing{
+    width: 17%;
+    justify-content: center;
+    margin: auto;
+}
+.quora_logo_landingpgage p{
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(73, 73, 73);
+    margin-top: 5px;
+}
+.new{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+/* Login */
+.quora_loging_holder{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 4%;
+    margin-top: 40px;
+}
+.quora_side1{
+    width: 48%;  
+    border-right: 1px solid rgb(203, 201, 201);
+}
+.google_facebook{
+    margin-top: 17px;
+}
+.google_facebook input{
+    width: 75%;
+    padding: 10px;
+    padding-left: 50px;
+    margin-top: 8px;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+.google_icon{
+    width: 7%; 
+    margin-left: -320px;
+}
+.google_facebook button{
+    width: 85%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 20px;
+    border: none;
+    transition: 1s;
+}
+.google_facebook button:hover{
+    background-color: rgb(187, 186, 186);
+}
+
+.quora_side2{
+    width: 48%;
+}
+.terme_and_condition{
+    font-size: 14px;
+    line-height: 20px;
+    color: gray;
+}
+.log_in{
+    font-size: 14px;
+    font-weight: bolder;    
+    margin-bottom: 15px;
+}
+.underline{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(201, 198, 198);
+}
+.quora_side2 input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 4px;  
+    border: 1px solid rgb(167, 166, 166);
+}
+.pwd{
+    margin-top: 15px;
+}
+.forgot_passwd{
+    display: flex;
+    margin-top: 20px;
+    gap: 180px;
+}
+.forgot_passwd li{
+    list-style: none;
+    font-size: 14px;
+    color: grey;
+    cursor: pointer;
+}
+.forgot_passwd button{
+    padding: 15px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(0, 98, 255);
+    border: none;
+    border-radius: 20px;
+}
+.underline_under{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(203, 199, 199);
+}
+.li_es{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(227, 226, 226);
+}
+.li_es li{
+    font-size: 10px;
+    padding: 8px;
+    cursor: pointer;
+}
+.about{
+    list-style: none;
+}
+.siginup_main{
+    justify-content: center;
+    margin: auto;
+}
+.siginup_main_parent{
+    position: relative;
+    position: fixed;
+    top: 50px;
+    right: 350px;
+    width: 40%;
+    border-radius: 10px;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    background-color: white;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10), 0 50px 100px 0 rgba(0, 0, 0, 1.00);
+}
+.closeBackcground{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+.closeBackcground:hover{
+    background-color: rgb(231, 229, 229); 
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+.close_fill_icon{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    margin: auto;
+}
+.signUp{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+.signup_inputs input{
+    width: 480px;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.signup_inputs p{
+    margin-top: 15px;
+}
+.line{
+    border-bottom: 1px solid rgb(166, 166, 166);
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+.signupNext{
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align:right;
+}
+.signupNext button{
+    width: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(0, 98, 255);;
+    color: white;
+    font-weight: bold;
+}
+
+/* Create Post */
+
+
+.post_btn_holder{
+    display: flex;
+    align-items: center;
+    gap: 70%;
+}
+.btns button{
+    padding: 8px;
+    gap: 10px;
+    border: none;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 15px;
+    color: gray;
+    background-color: white;
+}
+.btns button:hover{
+    border: 1px solid rgb(0, 98, 255)    
+}
+.post_btn{
+    display: flex;
+    margin: auto;
+    justify-content: flex-end;
+    align-items: flex-end;
+    cursor: pointer;
+    text-align:right;
+}
+.post_btn button{
+    width: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(0, 98, 255);;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+}
+.post_btn button:hover{    
+    background-color: rgb(5, 57, 142);    
+}
+.adquestion_createpost{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.adquestion_createpost_holder button{
+    padding: 10px;
+    width: 50%;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+.adquestion_createpost_holder button:hover{
+    background-color: rgb(237, 236, 236);  
+    border-bottom: 5px solid rgb(0, 98, 255);
+}
+.add_question_btn{
+    margin: auto;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 35px;
+    cursor: pointer;
+    text-align:right;
+}
+.cancelBtn{
+    background-color: rgb(174, 173, 173);
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    margin-right: 5px;
+}
+.add_quest{
+    background-color: rgb(0, 98, 255);
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    /* margin: auto; */
+    justify-content: flex-end;
+    align-items: flex-end;
+    cursor: pointer;
+    text-align:right;
+}
+.add_question_btn button:hover{    
+    background-color: rgb(0, 98, 255);  
+    color: white;  
+}
+.tips{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    color: rgb(0, 98, 255);
+}
+.start_your_question input{
+    width: 90%;
+    padding: 20px;
+    border: none;
+    background-color: white;
+}
+.start_your_question input:hover{
+    border: none;
+    background-color: white;
+}
+.p_details_holder{
+    display: flex;   
+}
+.p_details{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;    
+}
+.p_details button {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    background-color: orange;
+    text-decoration: none;
+}
+
+.p_details{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.choose_credentia{
+    justify-content: flex-start;
+    border: none;
+}
+.say_something{
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start;
+    margin: auto;
+    margin-top: 30px;
+}
+.say_something textarea{
+    width: 90%;
+    border: none;
+    padding: 10px;
+}
+
+.profileDetails_main{
+    width: 80%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+.profileDetails_left{
+    width: 45%;
+    padding: 10px;
+}
+.profileDetails_right{
+    width: 45%;
+    padding: 10px;
+    margin-left: 10%;
+}
+.pro_holder{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.short_name_y{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+}
+.ful_name{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.ad_profile_credential a{
+   text-decoration: none;
+   list-style: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: gray;
+    transition: 1s;
+}
+.ad_profile_credential li:hover{
+    color: black;
+}
+.folowing ul{
+    display: flex;
+    gap: 10px;
+}
+.folowing a{
+    text-decoration: none;    
+    list-style: none;
+    color: gray;
+}
+.write_a_drisption_about_yourself a{
+    text-decoration: none;
+    list-style: none;
+    color: gray;
+    margin-bottom: 20px;
+}
+.profile_btns button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    font-size: 10.4px;  
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    color: gray;
+}
+.profile_btns button:hover{
+    border-bottom: 2px solid brown;
+}
+.profile_btns button:active{
+    color: brown;
+}
+.profile_selection{
+    display: flex;
+    gap: 65%;
+    padding-bottom: 10px;
+}
+.profile_selection select{
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.quroa_share{
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 25px;
+}
+.quroa_share_answered{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+    margin-bottom: 50px;
+}
+.answer_questions, .ad_topics{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+}
+.answer_questions button{
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(0, 128, 255);
+}
+.answer_questions button:hover{
+    background-color: rgb(6, 119, 232);
+}
+.credential_fi_edit_icon{
+    display: flex;
+    gap: 55%;
+    margin-bottom: 10px;    
+}
+.fi_edit_icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid rgb(183, 181, 181);
+    background-color: rgb(225, 222, 222);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+.fi_edit_icon:hover{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(194, 193, 193);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.knows_about_fi_edit_icon{
+    display: flex;
+    gap: 70%;
+    margin-bottom: 10px;
+}
+.credential_fi_edit_icon_line{
+    border-bottom: 1px solid rgb(170, 170, 170);
+    margin-bottom: 10px;
+}
+.credential_links{
+    padding-bottom: 30px;
+}
+.credential_links a{
+    text-decoration: none;
+    list-style: none;
+    line-height: 30px;
+    font-size: 16px;
+    color: rgb(0, 128, 255);
+    padding-bottom: 20px;
+}
+.location_icon{
+    gap: 50px;
+}
+
+.ad_topics{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.ad_topics button{
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    color: rgb(0, 128, 255);
+    background-color: white;
+    font-weight: bolder;
+    border: 2px solid rgb(0, 128, 255);
+    transition: 1s;
+}
+.ad_topics button:hover{
+    background-color: rgb(0, 128, 255);
+    color: white;
+}
+
+
+/* Quora Blog */
+.quora_nav_holder{
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    
+}
+.quora_nav{
+    width: 80%;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    margin: auto;
+    /* position: fixed; */
+}
+.quora_logo_div_div{
+    width: 15%;
+    margin-top: 5px;
+}
+.quora_logo_blog{
+    width: 80%;
+    justify-content: center;
+    margin: 10px;
+}
+.faHo{
+    width: 8%;
+    margin: auto;
+    align-items: center;
+}
+.home_icon {
+    width: 60%;
+    height: 3%;
+    /* padding: 5px; */
+    color: red;
+    transition: 1s;
+}
+.home_icon:hover{
+    background-color: rgb(216, 215, 215);
+}
+.faR{
+    width: 5%; 
+    margin: auto;
+    align-items: center;
+}
+.FaRegEdit{
+    width: 70%;
+    height: 3%;
+    justify-content: center;
+    align-items: center; 
+    transition: 1s;
+    color: gray;
+}
+.FaRegEdit:hover{
+    background-color: rgb(234, 233, 233);
+}
+.faBell{
+    width: 5%; 
+    margin: auto;
+    align-items: center;
+}
+.FaRegBell{
+    width: 70%;
+    height: 3%;
+    justify-content: center;
+    align-items: center;  
+    transition: 1s;
+    color: red;
+}
+.FaRegBell:hover{
+    background-color: rgb(234, 233, 233);
+}
+.quora_searc_in{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.seach_q input{
+    width: 100%;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.searh_icon{
+    margin-left: 100%;
+    position: relative;
+    top: 40%;
+}
+.try_quora{
+    width: 15%;
+    margin: auto;
+    align-items: center;
+}
+.try_quora button{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+.add_question{
+    width: 20%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.add_question button{
+    padding: 8.4px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+.crete_post_btn{
+    width: 20px;
+    padding: 8px;
+    border: none;
+    background-color: rgb(195, 4, 4);
+    color: white;
+    border-radius:  0px 10px 10px 0px;
+}
+
+
+/* Quora blogs holder */
+.blogs_divs_holder{    
+    width: 100%;
+     background-color: rgb(233, 229, 229);
+     margin-top: 20px;
+}
+.blogs_divs_parent{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    /* margin-top: 20px; */
+}
+.blog_post_adt{
+    width: 100%;
+    display: flex;
+}
+.quora_blog_holder{
+    width: 25%;
+}
+.quora_blog{
+    width: 70%;
+    justify-content: center;
+    margin: auto;    
+}
+.quora_blog_input input{
+    width: 65%;
+    padding: 8px;
+    border: none;
+    margin-bottom: 10px;
+}
+.blogs_btn button{
+    width: 70%;
+    padding: 10px;
+    text-align: left;
+    padding-left: 5px;
+    border: none;
+    background-color: rgb(233, 229, 229);;
+    margin-bottom: 10px;
+    color:grey;
+    transition: 1px;
+}
+.blogs_btn button:hover{
+    background-color: rgb(212, 209, 209);
+}
+.blogs_btn{
+    border-bottom: 1px solid rgb(180, 178, 178);
+    margin-bottom: 20%;
+}
+.nigeria_butt button{
+    display: flex;
+    padding-left: 5%;
+    gap: 10px;
+}
+.nigeria_map_img{
+    width: 25%;
+    background-color: white;
+    border-radius: 20px;
+}
+.nigeria_map{
+    width: 90%;
+}
+
+.fine_art_img{
+    width: 25%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.about_career_ul {
+    width: 80%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.about_ca{
+    font-size: 14px;
+    display: flex;
+    gap: 20%;
+    color: gray;
+    line-height: 30px;
+}
+.about_career_ul li{
+    cursor: pointer;
+    transition: 1px;
+}
+.about_career_ul li:hover{
+    box-shadow: red;
+}
+
+.quora_post_holder{
+    width: 80%;   
+}
+.postsss_parent{
+    width: 90%;
+    border: 1px solid rgb(188, 187, 187);
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.postsss_one_holder{
+    padding: 10px;
+}
+.what_do_you_share_input_tag{          
+    text-align: center;
+}
+.what_do_you_share_input_tag input{
+    width: 90%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+}
+.BiMessageAltCheck{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 20%;
+}
+.bi_mess_icon, .regEdit, .FiEdit2{
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+}
+.bi_mess_icon, .regEdit, .FiEdit2 p{
+   cursor: pointer;
+}
+.postsss_holder{
+    width: 90%;
+    height: auto;
+    background-color: white;
+    border: 1px solid rgb(188, 187, 187);
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.postsss_parent_2{
+    width: 95%;  
+    justify-content: center;
+    margin: auto;  
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.topic{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    word-break: break-all;
+}
+.text_story{
+    /* height: 1000px; */
+    overflow:auto;
+    /* overflow: hidden; */
+}
+.text_story p{
+    font-size: 14px;
+}
+.quora_icons_parent{
+    width: 100%;
+    background-color: rgb(231, 229, 229);
+    justify-content: center;
+    margin: auto;
+}
+.quora_icons_holder{
+    display: flex;
+    width: 90%;  
+    padding: 5px;
+    justify-content: left;
+    margin: auto;     
+}
+.icon_one{
+    display: flex;    
+    width: 10%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.icon_fishare{  
+    display: flex;
+    border: none;
+    background-color: rgb(225, 225, 225);
+    border-radius: 20px;
+    gap: 10%;  
+    cursor: pointer;
+    padding:8px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transform: 1s;
+}
+.icon_fishare:hover{
+    background-color: rgb(211, 210, 210);
+}
+.comment_main{
+    display: flex;
+    width: 90%;  
+    padding: 5px;
+    justify-content: left;
+    margin: auto; 
+    background-color: rgb(233, 231, 231);
+}
+.comment_container{
+    width: 90%;
+    gap: 2%;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.comment_text{
+    background-color: rgb(233, 231, 231);
+    text-align: left;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.comment_name{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: none;
+    font-weight: bolder;
+    font-size: 14px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: orange;
+}
+.comment_name button{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.comement_holder{
+    display: flex;
+    gap: 5px;
+}
+.comement_holder input{
+    width: 67%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+.ad_comment{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(0, 98, 255);
+    color: white;
+    font-weight: bolder;
+    border: none;
+}
+
+.quora_advertisement_holder{
+    width: 25%;
+}
+.advert_holder{
+    width: 90%;
+    background-color: white;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid rgb(188, 187, 187);
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.advert{          
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.profile_holder{
+    display: flex;
+}
+.profile_img{
+    width: 10%;
+}
+.profile_img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 1000px;  
+}
+.profile_div{
+    display: flex;
+    line-height: 25px;
+    gap: 10px;
+    padding-left: 10px;
+}
+.name h2{
+    font-size: 14px;
+}
+.status{
+    list-style: none;
+    color: gray;
+    cursor: pointer;
+}
+.date{
+    list-style: none;
+    color: grey;
+    cursor: pointer;
+}
+.folow {
+    list-style: none;
+    color: rgb(0, 98, 255);
+    cursor: pointer;
+}
+
+.feature{
+    position: absolute;
+    right: 320px;
+    width: 1%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: flex-end; 
+    transition: 2s;
+}
+.close_icon:hover{
+    border-radius: 100%;
+    background-color: rgb(221, 220, 220);
+}
+
+.advert_display_holder{
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.advert_display{          
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+/* DropDrown */
+.dropdown_trigger{
+    position: relative;
+    top: 10px;
+    right: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    font-size: 20px;
+}
+.profile_d{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    text-decoration: none !important;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: orange;
+}
+.profile_details_d{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+.name{
+    list-style: none;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.profile_details_d h3{
+    padding-bottom: 20px;
+}
+.profile_details_d:hover{
+    color: grey;
+    cursor: pointer;    
+}
+
+.dropdown_menu{
+    position: absolute;
+    top: 70px;
+    right: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    width: 220px;
+    height: 400px;
+    overflow: scroll;
+}
+.dropdown_menu:before{
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    background: var(--secondary-bg);
+    transform: rotate(45deg);
+} 
+.dropdown_menu.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: var(--speed) ease;
+}
+.dropdown_menu.inactive{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: var(--speed) ease;
+}
+.dropdown_menu ul li{
+    padding: 10px, 0;
+    border-top: 1px solid rgb(223, 222, 222);
+    list-style: none;
+    padding: 12px;
+    margin-left: 10px;
+    align-items: center;
+    align-items: center;
+    
+}
+.dropdown_menu:hover{
+    /* color: red; */
+    cursor: pointer;    
+}
+.dropdown_menu ul li:hover img{
+    opacity: 1;
+    cursor: pointer;    
+}
+.DropdownItem img{
+    max-width: 15px;
+    margin-right: 10px;
+    opacity: 0.5;
+    transition: var(--speed);
+}
+.DropdownItem a{
+    max-width: 150px;
+    align-items: center;
+    margin-right: 10px;
+    transition: var(--speed);
+}
+
+
